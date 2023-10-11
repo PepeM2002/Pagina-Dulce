@@ -1,0 +1,23 @@
+{
+    "version": 3,
+    "file": "sw.js",
+    "sources": [
+        "../../../Users/josev/AppData/Local/Temp/78ed893c06477e455a25b42a9227b5d1/sw.js"
+    ],
+    "sourcesContent": [
+        "import {precacheAndRoute as workbox_precaching_precacheAndRoute} from 'C:/Users/josev/AppData/Roaming/npm/node_modules/workbox-cli/node_modules/workbox-precaching/precacheAndRoute.mjs';/**\n * Welcome to your Workbox-powered service worker!\n *\n * You'll need to register this file in your web app.\n * See https://goo.gl/nhQhGp\n *\n * The rest of the code is auto-generated. Please don't update this file\n * directly; instead, make changes to your Workbox build configuration\n * and re-run your build process.\n * See https://goo.gl/2aRDsh\n */\n\n\n\n\n\n\n\n\nself.addEventListener('message', (event) => {\n  if (event.data && event.data.type === 'SKIP_WAITING') {\n    self.skipWaiting();\n  }\n});\n\n\n\n\n/**\n * The precacheAndRoute() method efficiently caches and responds to\n * requests for URLs in the manifest.\n * See https://goo.gl/S9QRab\n */\nworkbox_precaching_precacheAndRoute([\n  {\n    \"url\": \"Css/stylos.css\",\n    \"revision\": \"b934646084af69c5c308a0ad5081ae75\"\n  },\n  {\n    \"url\": \"img/9ZZJ.gif\",\n    \"revision\": \"07e7228b8991e6c1f0cb8fddbd73a394\"\n  },\n  {\n    \"url\": \"img/logo192.png\",\n    \"revision\": \"33dbdd0177549353eeeb785d02c294af\"\n  },\n  {\n    \"url\": \"index.html\",\n    \"revision\": \"77ebae51c677b9a4e8478cf9e1323180\"\n  },\n  {\n    \"url\": \"manifest.json\",\n    \"revision\": \"a12d6c687ff0d2197fbc89e64dd22ec0\"\n  }\n], {\n  \"ignoreURLParametersMatching\": [/^utm_/, /^fbclid$/]\n});\n\n\n\n\n\n\n\n\n"
+    ],
+    "names": [
+        "self",
+        "addEventListener",
+        "event",
+        "data",
+        "type",
+        "skipWaiting",
+        "workbox_precaching_precacheAndRoute",
+        "url",
+        "revision",
+        "ignoreURLParametersMatching"
+    ],
+    "mappings": "0nBAmBAA,KAAKC,iBAAiB,WAAYC,IAC5BA,EAAMC,MAA4B,iBAApBD,EAAMC,KAAKC,MAC3BJ,KAAKK,aACP,IAWFC,EAAAA,iBAAoC,CAClC,CACEC,IAAO,iBACPC,SAAY,oCAEd,CACED,IAAO,eACPC,SAAY,oCAEd,CACED,IAAO,kBACPC,SAAY,oCAEd,CACED,IAAO,aACPC,SAAY,oCAEd,CACED,IAAO,gBACPC,SAAY,qCAEb,CACDC,4BAA+B,CAAC,QAAS"
+}

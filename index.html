@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Css/stylos.css" />
+    <link rel="manifest" href="./manifest.json">
+    <title>Dulceria</title>
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("sw.js");
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Acerca de</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="lala"></section>
+    <div class="smoke">
+      <span>D</span>
+      <span>U</span>
+      <span>L</span>
+      <span>C</span>
+      <span>E</span>
+      <span>R</span>
+      <span>I</span>
+      <span>A</span>
+    </div>
+    <section class="cartas">
+      <div class="card">
+        <div class="face front">
+          <img
+            src="https://fabricadesuenos.com.mx/cdn/shop/products/Personaliza-Canasta-de-Dulces-04.jpg?v=1675299979&width=1946"
+            alt="720px"
+          />
+          <h3>Dulces</h3>
+        </div>
+        <div class="face back">
+          <h3>Dulces</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nihil
+            velit omnis ipsam corrupti rem a error id deleniti quo fugit
+            consequatur, perferendis alias explicabo, dolores eum et animi
+            accusamus?
+          </p>
+          <div class="link">
+            <a href="#a">Detalles</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="face front">
+          <img
+            src="https://chamoymiguelito.com/wp-content/uploads/2017/04/dulces-y-golosinas-1-1024x576.png"
+            alt="720px"
+          />
+          <h3>Paletas</h3>
+        </div>
+        <div class="face back">
+          <h3>Paletas</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+            atque repellat enim facere ab in voluptas rem optio illum ex animi
+            tempora dolorum quae deserunt, natus aspernatur voluptatum quia?
+          </p>
+          <div class="link">
+            <a href="#a">Detalles</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
